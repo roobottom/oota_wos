@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" height="150" viewBox="0 0 150 150">
+  <defs>
+    <rect id="streaming-a" width="100" height="100"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="rotate(-10 -173.606 -487.852)">
+      <mask id="streaming-b" fill="#fff">
+        <use xlink:href="#streaming-a"/>
+      </mask>
+      <circle cy="100" r="17" stroke="#8BC53F" stroke-width="6" mask="url(#streaming-b)"/>
+      <circle cy="100" r="32" stroke="#8BC53F" stroke-width="6" mask="url(#streaming-b)"/>
+      <circle cy="100" r="47" stroke="#8BC53F" stroke-width="6" mask="url(#streaming-b)"/>
+    </g>
+    <path fill="#8BC53F" d="M81.8103979,52.5358585 C82.3699769,52.51205 82.9332946,52.5 83.5,52.5 C98.3167242,52.5 110.817654,60.7371547 114.729731,72 L116.5,72 C135.001539,72 150,86.9984609 150,105.5 C150,124.001539 135.001539,139 116.5,139 L33.5,139 C14.9984609,139 2.26578507e-15,124.001539 0,105.5 C-1.37531098e-15,94.2697336 5.52600271,84.3301343 14.0071978,78.2520124 C14.0024065,78.0019182 14,77.7512402 14,77.5 C14,56.2370371 31.2370371,39 52.5,39 C64.2377885,39 74.748729,44.2527607 81.8103979,52.5358585 Z"/>
+    <g stroke="#FFF" transform="translate(41 72)">
+      <ellipse cx="42.198" cy="36.226" stroke-width="9.467" rx="5.259" ry="4.027" transform="rotate(-20 42.198 36.226)"/>
+      <ellipse cx="12.802" cy="43.063" stroke-width="9.467" rx="5.259" ry="4.027" transform="rotate(-20 12.802 43.063)"/>
+      <polyline stroke-linejoin="round" stroke-width="6.133" points="19.54 41.551 19.303 6.75 48.862 0 48.937 36.716"/>
+    </g>
+  </g>
+</svg>

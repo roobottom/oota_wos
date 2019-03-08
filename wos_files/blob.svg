@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewbox="0 0 75 75" width="75" height="75">
+  <style>
+    #blob-outline {
+      transform-origin: 37.5px 37.5px;
+      animation-name: pulse;
+      animation-duration: 1.5s;
+      animation-timing-function: ease-out;
+      animation-iteration-count: infinite;
+      animation-delay: 3s;
+    }
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+        opacity: 1;
+      }
+      100% {
+        transform: scale(1.45);
+        opacity: 0;
+      }
+    }
+  </style>
+  <circle cx="37.5" cy="37.5" r="25" stroke="#CE2D5B" stroke-width="3" fill="none" id="blob-outline"></circle>
+  <circle cx="37.5" cy="37.5" r="25" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-opacity=".3"></circle>
+  <circle cx="37.5" cy="37.5" r="25" fill="none" stroke="#CE2D5B" stroke-width="3"></circle>
+  
+  
+</svg>

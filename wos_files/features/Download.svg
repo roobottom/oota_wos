@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150">
+  <g fill="none" fill-rule="evenodd">
+    <polygon fill="#8BC53F" points="75 79 115 123 35 123" transform="rotate(-180 75 101)"/>
+    <rect width="30" height="79" x="60" fill="#8BC53F"/>
+    <rect width="150" height="20" y="130" fill="#8BC53F"/>
+    <rect width="20" height="65" x="130" y="65" fill="#8BC53F"/>
+    <rect width="20" height="65" y="65" fill="#8BC53F"/>
+  </g>
+</svg>
