@@ -66,7 +66,6 @@ $fadeout-color: #F1F1F1;
   h1 {
     font-size: 50px;
     line-height: (59 / 50);
-    letter-spacing: 2px;
     color: $primary;
   }
 
@@ -213,7 +212,8 @@ $fadeout-color: #F1F1F1;
       padding: 10px 20px;
     }
     &__content {
-      padding: 10px 40px;
+      padding: 10px 62px;
+      text-align: center;
     }
   }
 
@@ -556,6 +556,9 @@ $fadeout-color: #F1F1F1;
   &--hero {
     text-align: center;
     padding-top: 20px;
+  }
+  &--demo {
+    background: white;
   }
   &--demo .wos-reveal img {
     height: 100%; //fix an issue in ie11

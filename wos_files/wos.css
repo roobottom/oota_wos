@@ -21,7 +21,6 @@
   .wos h1 {
     font-size: 50px;
     line-height: 1.18;
-    letter-spacing: 2px;
     color: #8BC53F; }
   .wos h2 {
     font-size: 46px;
@@ -206,7 +205,8 @@
       justify-content: center;
       padding: 10px 20px; }
     .wos-expander__content {
-      padding: 10px 40px; }
+      padding: 10px 62px;
+      text-align: center; }
   .wos-feature {
     text-align: center; }
     .wos-feature > img {
@@ -465,6 +465,8 @@
   .wos-section--hero {
     text-align: center;
     padding-top: 20px; }
+  .wos-section--demo {
+    background: white; }
   .wos-section--demo .wos-reveal img {
     height: 100%;
     width: 100%; }
