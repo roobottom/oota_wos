@@ -57,4 +57,7 @@ $(document).ready(function () {
   //   });
   // });
 
+  //fitvid
+  //$(".wos-hero").fitVids();
+
 });

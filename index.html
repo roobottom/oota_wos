@@ -122,22 +122,30 @@
 
   <section class="wos-section wos-section--hero">
     <div class="wos-wrapper">
-      <h1 class="width-l mx-auto">Our unique song player, designed with teachers in mind&hellip;</h1>
-      <div class="wos-hero">
-        <video src="wos_files/hero.mp4" playsinline autoplay muted loop></video>
+      <h1 class="width-l mx-auto">Our unique song player,<br/>designed with the teacher in mind.</h1>
+      <div class="wos-hero mb-l">
+        <div class="wos-hero-vid">
+          <video src="wos_files/hero.mp4" playsinline autoplay muted loop></video>
+          <div class="wos-hero-sash">Get your first song free</div>
+        </div>
       </div>
-      <p class="lead width-m mx-auto">A simple and user-friendly way to display lyrics from our songbooks, musicals and nativities to any computer screen, television or interactive touchscreen.</p>
-      <p class="lead width-m mx-auto">Just press play and the words synchronize with the music!</p>
+      <p class="lead width-m mx-auto">A simple and user-friendly way to display lyrics from our songbooks, musicals and nativities on any whiteboard, computer screen or interactive touchscreen.</p>
+      <p class="lead width-m mx-auto">Just press play and the words synchronise with the music.</p>
       
-      <a href="#" class="wos-button mx-auto mt-l mb-s">Try for free now</a>
-      <p class="small width-s mx-auto">Words On Screen™ requires an Out Of The Ark Music account. If you already have an account, <a href="#">click here to sign in.</a></p>
-      <a href="#" class="wos-big-link mx-auto mt-m"><img src="wos_files/hero-video.svg">Click to watch our how-to videos</a>
+      <div class="mx-auto my-m wos-hero-ctas">
+        <a href="#" class="wos-button">Try it now</a>
+        <!--<a href="#" class="wos-big-link ml-m"><img src="wos_files/hero-video.svg">Watch our how-to videos</a>-->
+        <a href="#" class="wos-button ml-m">How-to videos</a>
+      </div>
+      <!--p class="small width-s mx-auto">Words On Screen™ requires an Out Of The Ark Music account. If you already have an account, <a href="#">click here to sign in.</a></p-->
+      
     </div>
   </section>
 
   <section class="wos-section wos-section--formats">
     <div class="wos-wrapper">
-      <h2>Words on Screen™ is available in both formats</h2>
+      <h2>How do I get Words on Screen?</h2>
+      <p class="mx-auto width-l mb-l">Words on Screen comes with every purchase of a premium pack product and most are supplied in a CDROM format, and accessible online via your Out of the Ark online account. The main difference between the two is that your online Words on Screen contains extra features to make accessing your music and resources even easier.</p>
       <div class="wos-grid wos-grid--2">
 
         <div class="wos-expander">
@@ -155,7 +163,8 @@
             <img src="wos_files/format-online.svg"/>
           </div>
           <div class="wos-expander__content">
-            <p>Think of this as the digital version of your songbook, musical or nativity – we call this an eSongbook.</p> <p>This player is online for you to login and listen anytime.</p>
+            <p>Think of this as the digital version of your songbook, musical or nativity – we call this an eSongbook.</p>
+            <p>This player is online for you to login and listen anytime.</p>
             <p>Forgotten your login details? Don’t worry, <a href="#">click here</a> and we’ll guide you through.</p>
           </div>
         </div>
@@ -166,6 +175,7 @@
 
   <section class="wos-section wos-section--key-features">
     <div class="wos-wrapper">
+      <h2>Brilliant features</h2>
       <div class="wos-grid wos-grid--3">
         <div class="wos-feature">
           <img src="wos_files/features/Library.svg"/>
@@ -202,35 +212,38 @@
   </section>
 
   <section class="wos-section wos-section--demo">
+    <div class="wos-wrapper inner">
+      <p class="center">There are 2 screen views in your Words on Screen player, the Player view and the Library view</p>
+    </div>
     <div class="wos-reveal two spaced quickflip">
-      <div class="wos-wrapper">
-        <ol class="wos-reveal__controls wos-reveal__controls--large top">
-          <li><a href="#demo-fullscreen" class="active" data-reveal-target="active-1">Fullscreen</a></li>
+      <div class="wos-wrapper inner">
+        <ol class="wos-reveal__controls wos-reveal__controls--large top mb-l">
+          <li><a href="#demo-fullscreen" class="active" data-reveal-target="active-1">Player</a></li>
           <li><a href="#demo-library" data-reveal-target="active-2">Library</a></li>
         </ol>
       </div>
-      <div class="wos-wrapper isolated">
+      <div class="wos-wrapper isolated inner">
       <ol class="wos-reveal__items active-1">
 
         <li id="demo-fullscreen" class="wos-has-blobs">
           <img src="wos_files/demo-fullscreen.png"/>
           <ol class="wos-blobs">
-            <li class="blob-1" >
+            <li id="blob-sync" >
               <img src="wos_files/blob.svg" />
               <div class="wos-blob-popover">
-                This feature is amazing! I really think that you'll like it, a lot.
+                Words synchronise with the music
               </div>
             </li>
-            <li class="blob-2" >
+            <li id="blob-audio-extras" >
               <img src="wos_files/blob.svg" />
-              <div class="wos-blob-popover top">
-                This feature is amazing! I really think that you'll like it, a lot.
+              <div class="wos-blob-popover top right">
+                Audio extras: which may include harmonies, part singing or rounds
               </div>
               </li>
-            <li class="blob-3" >
+            <li id="blob-song-extras" >
               <img src="wos_files/blob.svg" />
-              <div class="wos-blob-popover top">
-                This feature is amazing! I really think that you'll like it, a lot.
+              <div class="wos-blob-popover top right">
+                Song extras: including downloadable song lyrics, score, MP3 and music activity pages, teaching tips and cross-curricular links (where applicable)
               </div>
             </li>
           </ol>
@@ -239,35 +252,31 @@
         <li id="demo-library" class="wos-has-blobs">
           <img src="wos_files/demo-lib.png"/>
           <ol class="wos-blobs">
-            <li class="blob-1" >
+            <li id="blob-songbook" >
               <img src="wos_files/blob.svg" />
               <div class="wos-blob-popover">
-                This feature is amazing! I really think that you'll like it, a lot.
+                <p>Quickly find all songs you have purchased in your library</p>
+                <p>Find the resources for each of the products you’ve purchased in your eSongbook.</p>
               </div>
             </li>
-            <li class="blob-2" >
+            <li id="blob-plain-text" >
               <img src="wos_files/blob.svg" />
               <div class="wos-blob-popover top">
-                This feature is amazing! I really think that you'll like it, a lot.
-              </div>
-              </li>
-            <li class="blob-3" >
-              <img src="wos_files/blob.svg" />
-              <div class="wos-blob-popover top">
-                This feature is amazing! I really think that you'll like it, a lot.
+                Easily access the plain text of all lyrics
               </div>
             </li>
-          </ol>   
+          </ol>
         </li>
-
+        
       </ol>
+
       </div>
     </div>
   </section>
 
   <section class="wos-section wos-section--cta-green">
     <div class="wos-wrapper">
-    <h2>Start Using Words On Screen™ Today!</h2>
+    <h2>Words On Screen™ products</h2>
     <a href="#" class="wos-button wos-button--tertiary">Browse songbooks</a>
     <a href="#" class="wos-button wos-button--tertiary ml-s">Browse single songs</a>
     </div>
@@ -280,21 +289,22 @@
         <img src="wos_files/step-1.png"/>
         <div class="wos-step__info">
         <h2>Step 1:</h2>
-        <p>Create an account for Out Of The Ark Music online</p>
+        <p>Click on the top right ‘my account/log in’ button, and log in if you are an exsiting customer, or click on new customer to begin the log in process. Forgotten your log in? Don’t worry, <a href="#">click here</a></p>
         </div>
       </div>
       <div class="wos-step">
         <img src="wos_files/step-2.png"/>
         <div class="wos-step__info">
         <h2>Step 2:</h2>
-        <p>Download Words On Screen™ online to your computer</p>
+        <p>As new customer, you will be required to create an account. Then you will be able to download Words on Screen&trade;.</p>
         </div>
       </div>
       <div class="wos-step">
         <img src="wos_files/step-3.png"/>
         <div class="wos-step__info">
         <h2>Step 3:</h2>
-        <p>Log in to your Out of the Ark Music account in Words On Screen™ to start singing!</p>
+        <p>Once you have successfully logged into your Out of the Ark Music account, you can access all your saved account information, plus your Words on Screen&trade; Single Songs and eSongbooks.</p>
+        <p>Choose to either stream or download your songs depending on your requirements.</p>
         </div>
       </div>
     </div>
@@ -302,6 +312,13 @@
 
   <section class="wos-section wos-section--videos">
     <div class="wos-reveal three spaced">
+      <div class="wos-wrapper">
+        <ol class="wos-reveal__controls top mb-l">
+          <li><a href="#video-1" class="active" data-reveal-target="active-1">Using the player</a></li>
+          <li><a href="#video-2" data-reveal-target="active-2">Creating eSongbook</a></li>
+          <li><a href="#video-3" data-reveal-target="active-3">Using Playlists</a></li>
+        </ol>
+      </div>
       <div class="wos-wrapper fadeout">     
       <ol class="wos-reveal__items active-1">
         <li id="video-1">
@@ -318,13 +335,7 @@
         </li>
       </ol>
       </div>
-      <div class="wos-wrapper">
-      <ol class="wos-reveal__controls">
-        <li><a href="#video-1" class="active" data-reveal-target="active-1">Using the player</a></li>
-        <li><a href="#video-2" data-reveal-target="active-2">Creating eSongbook</a></li>
-        <li><a href="#video-3" data-reveal-target="active-3">Using Playlists</a></li>
-      </ol>
-      </div>
+      
     </div>
   </section>
 
@@ -334,44 +345,55 @@
       <div class="wos-accordion">
         
         <div class="wos-accordion__item show">
-          <div class="wos-accordion__title">How do I use words on screen?</div>
+          <div class="wos-accordion__title">Stream your songs. Download your songs. Which one is for you?</div>
           <div class="wos-accordion__content">
-            <p>The library view is where you’ll find everything you’re looking for, whether that be the list of songs, eSongbooks, fabulous resources or curriculum links.</p>
-            <p>The player view is a full screen version of the song you’re teaching, and the mode best suited to song practice. Your song will still display, highlight and play in the library view, but in a much smaller screen.</p>
+            <p>When you have logged onto your Out of the Ark account to access your songs, you will be given the option either to stream or download your songs. Here’s a simple explanation to help you work out which one is for you (can this be designed side by side, so you click or roll over one and the info appears – like the 4 tabs on the previous version).</p>
           </div>
         </div>
 
         <div class="wos-accordion__item">
-          <div class="wos-accordion__title">How do I use words on screen?</div>
+          <div class="wos-accordion__title">Why stream your songs?</div>
           <div class="wos-accordion__content">
-            <p>The library view is where you’ll find everything you’re looking for, whether that be the list of songs, eSongbooks, fabulous resources or curriculum links.</p>
-            <p>The player view is a full screen version of the song you’re teaching, and the mode best suited to song practice. Your song will still display, highlight and play in the library view, but in a much smaller screen.</p>
+            <p>This function gives you the flexibility to log on and access your songs anywhere, on any device, excluding mobile phones, provided you have an internet connection. When you stream your songs every song you have purchased will be visible and playable from your player.</p>
           </div>
         </div>
 
         <div class="wos-accordion__item">
-          <div class="wos-accordion__title">How do I use words on screen?</div>
+          <div class="wos-accordion__title">Why download your songs?</div>
           <div class="wos-accordion__content">
-            <p>The library view is where you’ll find everything you’re looking for, whether that be the list of songs, eSongbooks, fabulous resources or curriculum links.</p>
-            <p>The player view is a full screen version of the song you’re teaching, and the mode best suited to song practice. Your song will still display, highlight and play in the library view, but in a much smaller screen.</p>
+            <p>If you have an unreliable internet connection in your school, it would be better to download your player to enable you to have complete access to all your purchased songs at any time without the need for internet connection once the download has completed. Note – the player and songs you have downloaded will only be available on the device you have downloaded them to.</p>
+            <p>Still unsure? Contact our helpful digital team on 0208 941 7200</p>
           </div>
         </div>
 
         <div class="wos-accordion__item">
-          <div class="wos-accordion__title">How do I use words on screen?</div>
+          <div class="wos-accordion__title">What is an eSongbook?</div>
           <div class="wos-accordion__content">
-            <p>The library view is where you’ll find everything you’re looking for, whether that be the list of songs, eSongbooks, fabulous resources or curriculum links.</p>
-            <p>The player view is a full screen version of the song you’re teaching, and the mode best suited to song practice. Your song will still display, highlight and play in the library view, but in a much smaller screen.</p>
+            <p>An e-songbook is a digital version of your songbook, musical or nativity. It is instant, which means that it will appear as soon as you refresh your player. Your eSongbook contains everything you would typically find in your printed resource. This may be scripts, character lists and prop suggestions for musicals and nativities, or curriculum linked extras and creative ideas for songbooks.</p>
           </div>
         </div>
 
         <div class="wos-accordion__item">
-          <div class="wos-accordion__title">How do I use words on screen?</div>
+          <div class="wos-accordion__title">Where can I find my eSongbook?</div>
           <div class="wos-accordion__content">
-            <p>The library view is where you’ll find everything you’re looking for, whether that be the list of songs, eSongbooks, fabulous resources or curriculum links.</p>
-            <p>The player view is a full screen version of the song you’re teaching, and the mode best suited to song practice. Your song will still display, highlight and play in the library view, but in a much smaller screen.</p>
+            <p>Once you have a logged into your account page you will be able to access all of your digital resources by either streaming or downloading . When your player is open you will find a link for ‘All eSongbooks’ on the left hand side menu bar. Click on this, and you will see a list of all the e-songbooks you have purchased.</p>
           </div>
         </div>
+
+        <div class="wos-accordion__item">
+          <div class="wos-accordion__title">What is in my eSongbook?</div>
+          <div class="wos-accordion__content">
+            <p>Open up your e-songbook by clicking on the title you require. Links to the resources available to you can be found on the left hand side menu bar. Click on any of the links and your resources will be appear in a printable format.</p>
+          </div>
+        </div>
+
+        <div class="wos-accordion__item">
+          <div class="wos-accordion__title">When I click to view my e-songbooks, I can’t seem to use the search bar function.</div>
+          <div class="wos-accordion__content">
+            <p>Don’t worry, we’re aware of this, and are working on a fix. In the meantime if you want to search for a particular song, you need to click on the link in the left hand menu bar labelled ‘All Songs’. This will then display all songs you have in your library. To search for a song, simply start typing the chosen song title in the search bar on the top left of the player screen. Your song will display.</p>
+          </div>
+        </div>
+
     
       </div>
     </div>
@@ -390,6 +412,7 @@
 <!-- DEV REMOVE THIS -->
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 
+<script src="wos_files/fitvid.js"></script>
 <script src="wos_files/wos.js"></script>
 
 </main><footer id="footer"><div class="inner"><div class="footer-main"><section class="contact"><h4 class="title">Contact Us</h4><p><span><a class="tel" href="tel:+44 2084 817 200">+44 (0)20 8481 7200</a></span><span><a href="mailto:info@outoftheark.com" target="_blank">info@outoftheark.com</a></span><span class="address" units="" f1="" &="" f2,="" kingsway="" business="" park,="" oldfield="" road,<br=""> Hampton, Middlesex TW12 2HD UK</span></p></section><section class="social"><h4 class="title">Follow Us</h4><div class="social-icons"><a class="icon-facebook-circle" href="https://www.facebook.com/outofthearkmusic"></a><a class="icon-twitter-circle" href="https://twitter.com/singoutoftheark"></a><a class="icon-youtube-circle" href="https://www.youtube.com/outoftheark"></a><a class="icon-pinterest-circle" href="https://www.pinterest.com/outoftheark"></a></div></section><div class="tablet-clear"></div><section class="useful-links"><h4 class="title">Useful Links</h4><nav class="footer-menu"><a href="">Copyright &amp; Licensing</a><a href="">Privacy &amp; Security</a><a href="">Cookies</a><a href="">Terms &amp; Conditions</a><a href="">Postage</a><a href="">FAQs</a><a href="">Our Authors</a><a href="">Press</a><a href="">News</a><a href="">Advisors</a><a href="">Workshops</a></nav></section></div></div><div class="copyright"><div class="content-width"><p>© Out Of The Ark 2018 | Company Registration No. 04399498 | Company VAT No. GB 666 2526 20</p></div></div><script src="Workshop%201_files/oota-front-069-compiled.js"></script><script>$(document).ready(function () {oota_rotate_init();});</script></footer>
