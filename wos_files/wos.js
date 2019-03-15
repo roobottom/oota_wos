@@ -58,6 +58,6 @@ $(document).ready(function () {
   // });
 
   //fitvid
-  //$(".wos-hero").fitVids();
+  $('iframe[src*="youtube"]').parent().fitVids();
 
 });
