@@ -273,11 +273,27 @@ $fadeout-color: #F1F1F1;
         padding: 10px;
         text-align: center;
         transition: all $transition-time;
+        position: relative;
 
         &:hover,
         &.active {
           color: $primary;
           border-color: $primary;
+
+        }
+
+        &.active:after {
+          display: block;
+          content: "";
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 12.0px 20.0px 0 20.0px;
+          border-color: $primary transparent transparent transparent;
+          position: absolute;
+          bottom: -12px;
+          left: 50%;
+          margin-left: -20px;
         }
 
       }
@@ -391,7 +407,7 @@ $fadeout-color: #F1F1F1;
     &__title {
       font-size: 22px;
       background-color: #EEE;
-      padding: 10px 20px;
+      padding: 10px 70px 10px 20px;
       position: relative;
       cursor: pointer;
       &:after {
@@ -596,20 +612,27 @@ $fadeout-color: #F1F1F1;
 
 //sections
 .wos-section {
-  padding: 50px 0 50px 0;
+  padding: 100px 0 100px 0;
   &--hero {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 50px;
+  }
+  &--formats {
+    padding-bottom: 110px;
   }
   &--demo {
     background: white;
+    padding-bottom: 110px;
   }
   &--demo .wos-reveal img {
     //height: 100%; //fix an issue in ie11
     //width: 100%;
   }
+  &--get-started {
+    padding-bottom: 0;
+  }
   &--videos {
-    padding-top: 0;
+    padding-top: 90px;
   }
   &--formats {
     //text-align: center;
@@ -618,6 +641,7 @@ $fadeout-color: #F1F1F1;
   &--cta-green {
     background-color: $primary;
     text-align: center;
+    padding: 70px 0;
     h2 { color: white; }
   }
   &--cta {

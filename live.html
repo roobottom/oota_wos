@@ -1,0 +1,1101 @@
+<style>
+.wos {
+  color: #666666;
+  background-color: #F1F1F1; }
+  .wos p > a {
+    color: #8BC53F; }
+    .wos p > a:hover {
+      color: #70a130; }
+  .wos p {
+    font-size: 18px;
+    line-height: 1.27778; }
+  .wos p.lead {
+    font-size: 20px;
+    line-height: 1.15; }
+  .wos img {
+    max-width: 100%;
+    display: block; }
+  .wos h1, .wos h2, .wos h3, .wos h4, .wos h5, .wos h6 {
+    margin: 0 0 1em 0;
+    font-weight: normal; }
+    .wos h1 + p, .wos h2 + p, .wos h3 + p, .wos h4 + p, .wos h5 + p, .wos h6 + p {
+      margin-top: 0; }
+  .wos h1 {
+    font-size: 50px;
+    line-height: 1.18;
+    color: #8BC53F; }
+  .wos h2 {
+    font-size: 46px;
+    line-height: 1.17391;
+    color: #8BC53F;
+    text-align: center; }
+  .wos h3 {
+    font-size: 20px;
+    line-height: 1.6;
+    text-transform: uppercase;
+    margin-bottom: .5em; }
+  .wos .ml-xs {
+    margin-left: 5px; }
+  .wos .mr-xs {
+    margin-right: 5px; }
+  .wos .mt-xs {
+    margin-top: 5px; }
+  .wos .mb-xs {
+    margin-bottom: 5px; }
+  .wos .mx-xs {
+    margin-left: 5px;
+    margin-right: 5px; }
+  .wos .my-xs {
+    margin-top: 5px;
+    margin-bottom: 5px; }
+  .wos .ml-s {
+    margin-left: 10px; }
+  .wos .mr-s {
+    margin-right: 10px; }
+  .wos .mt-s {
+    margin-top: 10px; }
+  .wos .mb-s {
+    margin-bottom: 10px; }
+  .wos .mx-s {
+    margin-left: 10px;
+    margin-right: 10px; }
+  .wos .my-s {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .wos .ml-m {
+    margin-left: 25px; }
+  .wos .mr-m {
+    margin-right: 25px; }
+  .wos .mt-m {
+    margin-top: 25px; }
+  .wos .mb-m {
+    margin-bottom: 25px; }
+  .wos .mx-m {
+    margin-left: 25px;
+    margin-right: 25px; }
+  .wos .my-m {
+    margin-top: 25px;
+    margin-bottom: 25px; }
+  .wos .ml-l {
+    margin-left: 50px; }
+  .wos .mr-l {
+    margin-right: 50px; }
+  .wos .mt-l {
+    margin-top: 50px; }
+  .wos .mb-l {
+    margin-bottom: 50px; }
+  .wos .mx-l {
+    margin-left: 50px;
+    margin-right: 50px; }
+  .wos .my-l {
+    margin-top: 50px;
+    margin-bottom: 50px; }
+  .wos .ml-xl {
+    margin-left: 100px; }
+  .wos .mr-xl {
+    margin-right: 100px; }
+  .wos .mt-xl {
+    margin-top: 100px; }
+  .wos .mb-xl {
+    margin-bottom: 100px; }
+  .wos .mx-xl {
+    margin-left: 100px;
+    margin-right: 100px; }
+  .wos .my-xl {
+    margin-top: 100px;
+    margin-bottom: 100px; }
+  .wos .ml-auto {
+    margin-left: auto; }
+  .wos .mr-auto {
+    margin-right: auto; }
+  .wos .mt-auto {
+    margin-top: auto; }
+  .wos .mb-auto {
+    margin-bottom: auto; }
+  .wos .mx-auto {
+    margin-left: auto;
+    margin-right: auto; }
+  .wos .my-auto {
+    margin-top: auto;
+    margin-bottom: auto; }
+  .wos .center {
+    text-align: center; }
+  .wos .width-s {
+    max-width: 395px;
+    margin-left: auto;
+    margin-right: auto; }
+  .wos .width-m {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto; }
+  .wos .width-l {
+    max-width: 920px;
+    margin-left: auto;
+    margin-right: auto; }
+  .ootacustom-grid > * {
+    margin-bottom: 40px; }
+  .ootacustom-button {
+    font-size: 26px;
+    background-color: #8BC53F;
+    color: white;
+    padding: 17px 30px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.35s ease-out;
+    transition: all 0.35s ease-out;
+    display: inline-block;
+    border: 2px solid #8BC53F; }
+    .ootacustom-button:hover {
+      color: white;
+      background-color: #70a130;
+      border-color: #70a130; }
+    .ootacustom-button--secondary {
+      background-color: white;
+      color: #8BC53F; }
+      .ootacustom-button--secondary:hover {
+        background-color: #f9fcf5;
+        color: #70a130;
+        border-color: #70a130; }
+    .ootacustom-button--tertiary {
+      background-color: #8BC53F;
+      border-color: white; }
+      .ootacustom-button--tertiary:hover {
+        border-color: white; }
+  .ootacustom-hero {
+    padding-bottom: 93px;
+    position: relative; }
+    .ootacustom-hero video {
+      border: 12px solid black;
+      border-radius: 6px;
+      display: block;
+      background: url("//www.outoftheark.co.uk/ext/images/wos-2019/hero-bg.jpg") center center no-repeat;
+      background-size: cover;
+      width: 100%; }
+    .ootacustom-hero-ctas {
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+    .ootacustom-hero-vid {
+      max-width: 740px;
+      overflow: hidden;
+      margin: 0 auto;
+      position: relative; }
+    .ootacustom-hero-sash {
+      position: absolute;
+      padding: 10px 60px;
+      top: 70px;
+      right: -60px;
+      background-color: #F64A5F;
+      color: white;
+      font-size: 14px;
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg);
+      text-transform: uppercase;
+      text-align: center; }
+  .ootacustom-big-link {
+    color: #8BC53F;
+    font-size: 22px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .ootacustom-big-link > *:first-child {
+      margin-right: 10px; }
+    .ootacustom-big-link:hover {
+      color: #70a130; }
+  .ootacustom-expander {
+    border-radius: 30px;
+    overflow: hidden;
+    -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    background-color: #F8F8F8; }
+    .ootacustom-expander__head {
+      background-color: #8BC53F;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      padding: 10px 20px; }
+    .ootacustom-expander__content {
+      padding: 10px 62px;
+      text-align: center; }
+  .ootacustom-feature {
+    text-align: center; }
+    .ootacustom-feature > img {
+      margin: 0 auto;
+      width: 100px; }
+  @supports (display: grid) {
+    .ootacustom-feature {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; } }
+  .ootacustom-reveal__controls {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    .ootacustom-reveal__controls > li {
+      -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+      flex: 1 0 auto; }
+    .ootacustom-reveal__controls > li > a {
+      font-size: 22px;
+      line-height: 1.18182;
+      border-top: 2px solid #D8D8D8;
+      display: block;
+      padding: 10px;
+      text-align: center;
+      -webkit-transition: all 0.35s ease-out;
+      transition: all 0.35s ease-out;
+      position: relative; }
+      .ootacustom-reveal__controls > li > a:hover, .ootacustom-reveal__controls > li > a.active {
+        color: #8BC53F;
+        border-color: #8BC53F; }
+      .ootacustom-reveal__controls > li > a.active:after {
+        display: block;
+        content: "";
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 12.0px 20.0px 0 20.0px;
+        border-color: #8BC53F transparent transparent transparent;
+        position: absolute;
+        bottom: -12px;
+        left: 50%;
+        margin-left: -20px; }
+    .ootacustom-reveal__controls.top > li > a {
+      border-bottom: 4px solid #D8D8D8;
+      border-top: none; }
+      .ootacustom-reveal__controls.top > li > a:hover, .ootacustom-reveal__controls.top > li > a.active {
+        border-color: #8BC53F; }
+  .ootacustom-reveal.two .ootacustom-reveal__items {
+    width: 200%; }
+    .ootacustom-reveal.two .ootacustom-reveal__items.active-1 {
+      left: 0; }
+    .ootacustom-reveal.two .ootacustom-reveal__items.active-2 {
+      left: -100%; }
+  .ootacustom-reveal.two.spaced .ootacustom-reveal__items {
+    width: calc(200% + (100px * 2)); }
+    .ootacustom-reveal.two.spaced .ootacustom-reveal__items.active-1 {
+      left: 0; }
+    .ootacustom-reveal.two.spaced .ootacustom-reveal__items.active-2 {
+      left: calc( -100% - 100px); }
+  .ootacustom-reveal.three.spaced .ootacustom-reveal__items {
+    width: calc(300% + (100px * 3)); }
+    .ootacustom-reveal.three.spaced .ootacustom-reveal__items.active-1 {
+      left: 0; }
+    .ootacustom-reveal.three.spaced .ootacustom-reveal__items.active-2 {
+      left: calc( -100% - 100px); }
+    .ootacustom-reveal.three.spaced .ootacustom-reveal__items.active-3 {
+      left: calc( -200% - (100px * 2)); }
+  .ootacustom-reveal__items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    position: relative; }
+  .ootacustom-reveal.quickflip .ootacustom-reveal__items {
+    -webkit-transition: none;
+    transition: none; }
+  .ootacustom-reveal__items > li {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .ootacustom-reveal.spaced .ootacustom-reveal__items > li {
+    margin-right: 100px; }
+  .ootacustom-step {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 40px 80px;
+    background-color: white;
+    -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    margin-bottom: 80px; }
+    .ootacustom-step h2 {
+      text-align: left; }
+    .ootacustom-step:last-of-type {
+      margin-bottom: 0; }
+  .ootacustom-accordion {
+    border: 1px solid #BBB; }
+    .ootacustom-accordion__item {
+      overflow: hidden; }
+    .ootacustom-accordion__title {
+      font-size: 22px;
+      background-color: #EEE;
+      padding: 10px 70px 10px 20px;
+      position: relative;
+      cursor: pointer; }
+      .ootacustom-accordion__title:after {
+        content: "";
+        background: #DDD url(//www.outoftheark.co.uk/ext/images/wos-2019/arrow-closed.svg) center center no-repeat;
+        position: absolute;
+        height: 100%;
+        width: 57px;
+        top: 0;
+        right: 0; }
+    .ootacustom-accordion__item:not(.show):not(:last-child) {
+      border-bottom: 1px solid #BBB; }
+    .ootacustom-accordion__content {
+      height: 0;
+      -webkit-transition: all .5s ease-in;
+      transition: all .5s ease-in;
+      display: none;
+      border-bottom: 1px solid #BBB;
+      border-top: 1px solid #BBB; }
+    .ootacustom-accordion__item.show .ootacustom-accordion__title:after {
+      background-image: url(//www.outoftheark.co.uk/ext/images/wos-2019/arrow-open.svg); }
+    .ootacustom-accordion__item.show .ootacustom-accordion__content {
+      padding: 10px 20px;
+      height: auto;
+      display: block; }
+  .ootacustom-blobs {
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none; }
+    .ootacustom-blobs-content {
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0);
+      color: white;
+      font-size: 32px;
+      line-height: 1.0625;
+      width: 100%;
+      height: 100%;
+      padding: 80px;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      display: none;
+      -webkit-transition: all .35 ease-out;
+      transition: all .35 ease-out; }
+      .ootacustom-blobs-content.active {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.85); }
+    .ootacustom-blobs > li {
+      position: absolute;
+      cursor: pointer; }
+      .ootacustom-blobs > li.hidden.active {
+        opacity: .5; }
+      .ootacustom-blobs > li.hidden {
+        opacity: .1; }
+    .ootacustom-blobs #blob-sync {
+      bottom: 44%;
+      left: 42%; }
+    .ootacustom-blobs #blob-audio-extras {
+      bottom: 25px;
+      right: 30px; }
+    .ootacustom-blobs #blob-song-extras {
+      bottom: 25px;
+      right: 130px; }
+    .ootacustom-blobs #blob-songbook {
+      left: 40px;
+      top: 80px; }
+    .ootacustom-blobs #blob-plain-text {
+      bottom: 10px;
+      left: 59%; }
+  .ootacustom-blob-popover {
+    background-color: rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.16667;
+    width: 360px;
+    position: absolute;
+    border-radius: 3px;
+    left: 3px;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s ease-out;
+    transition: opacity 0.35s ease-out;
+    z-index: 1000; }
+    .ootacustom-blob-popover:before {
+      content: "";
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 0 10px 10px 10px;
+      border-color: transparent transparent rgba(0, 0, 0, 0.75) transparent;
+      position: absolute;
+      top: -10px;
+      left: 25px; }
+    .ootacustom-blob-popover.top {
+      bottom: 100%; }
+      .ootacustom-blob-popover.top:before {
+        border-width: 10px 10px 0 10px;
+        border-color: rgba(0, 0, 0, 0.75) transparent transparent transparent;
+        top: auto;
+        bottom: -10px; }
+    .ootacustom-blob-popover.right {
+      left: auto;
+      right: 3px; }
+      .ootacustom-blob-popover.right:before {
+        left: auto;
+        right: 25px; }
+  .ootacustom-blobs > li:hover .ootacustom-blob-popover {
+    opacity: 1; }
+  .ootacustom-has-blobs {
+    position: relative; }
+
+.ootacustom-wrapper {
+  max-width: 800px;
+  padding: 0 60px; }
+  .ootacustom-wrapper.isolated {
+    overflow: hidden; }
+  .ootacustom-wrapper.inner {
+    padding: 0 20px; }
+  .ootacustom-wrapper.fadeout {
+    position: relative; }
+    .ootacustom-wrapper.fadeout:before, .ootacustom-wrapper.fadeout:after {
+      content: "";
+      position: absolute;
+      background-color: #F1F1F1;
+      width: calc(50vw - 400px);
+      height: 100%;
+      top: 0; }
+    .ootacustom-wrapper.fadeout:before {
+      left: calc(-1 * (50vw - 400px));
+      z-index: 2;
+      background: linear-gradient(-90deg, rgba(241, 241, 241, 0) 0%, #f1f1f1 500px, #f1f1f1 100%); }
+    .ootacustom-wrapper.fadeout:after {
+      right: calc(-1 * (50vw - 400px));
+      background: linear-gradient(90deg, rgba(241, 241, 241, 0) 0%, #f1f1f1 500px, #f1f1f1 100%); }
+
+.ootacustom-section {
+  padding: 100px 0 100px 0; }
+  .ootacustom-section--hero {
+    text-align: center;
+    padding-top: 50px; }
+  .ootacustom-section--formats {
+    padding-bottom: 110px; }
+  .ootacustom-section--demo {
+    background: white;
+    padding-bottom: 110px; }
+  .ootacustom-section--get-started {
+    padding-bottom: 0; }
+  .ootacustom-section--videos {
+    padding-top: 90px; }
+  .ootacustom-section--formats {
+    background-color: white; }
+  .ootacustom-section--cta-green {
+    background-color: #8BC53F;
+    text-align: center;
+    padding: 70px 0; }
+    .ootacustom-section--cta-green h2 {
+      color: white; }
+  .ootacustom-section--cta {
+    text-align: center; }
+  .ootacustom-section--faq {
+    background-color: white; }
+
+/* responsive styles for larger screens */
+@media screen and (min-width: 1000px) {
+  .ootacustom-wrapper {
+    margin: 0 auto;
+    padding: 0; }
+    .ootacustom-wrapper.inner {
+      padding: 0; }
+  .ootacustom-grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .ootacustom-grid > * {
+      margin: 20px;
+      margin-bottom: 0; }
+    .ootacustom-grid--2 > * {
+      -webkit-box-flex: 1;
+      -ms-flex: 1 0 45%;
+      flex: 1 0 45%; }
+    .ootacustom-grid--3 > * {
+      -webkit-box-flex: 1;
+      -ms-flex: 1 0 25%;
+      flex: 1 0 25%; }
+    @supports (display: grid) {
+      .ootacustom-grid {
+        display: grid;
+        grid-gap: 40px; }
+        .ootacustom-grid > * {
+          margin: 0; }
+        .ootacustom-grid--2 {
+          grid-template-columns: 1fr 1fr; }
+        .ootacustom-grid--3 {
+          grid-template-columns: 1fr 1fr 1fr; } }
+  .ootacustom-step {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row; }
+    .ootacustom-step > * {
+      width: 45%; }
+    .ootacustom-step:nth-of-type(3n-1) {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+      flex-direction: row-reverse; }
+  .ootacustom-blobs {
+    display: block; }
+  .ootacustom-hero:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 93px;
+    background: url("//www.outoftheark.co.uk/ext/images/wos-2019/hero-monitor-stand.png") bottom center no-repeat; } }
+
+@media (min-width: 768px) {
+  main {
+    max-width: none; } }
+
+</style>
+
+<div class="wos">
+
+  <section class="ootacustom-section ootacustom-section--hero">
+    <div class="ootacustom-wrapper">
+      <img src="//www.outoftheark.co.uk/ext/images/wos-2019/wos-logo.png" class="mb-l mx-auto" style="width: 360px;"/>
+      <h1 class="width-l mx-auto">Our unique song player,<br/>designed with the teacher in mind.</h1>
+      <div class="ootacustom-hero mb-l">
+        <div class="ootacustom-hero-vid">
+          <video src="//www.outoftheark.co.uk/ext/images/wos-2019/hero.mp4" playsinline autoplay muted loop></video>
+          <div class="ootacustom-hero-sash">Get your first song free</div>
+        </div>
+      </div>
+      <p class="lead width-m mx-auto">A simple and user-friendly way to display lyrics from our songbooks, musicals and nativities on any whiteboard, computer screen or interactive touchscreen.</p>
+      <p class="lead width-m mx-auto">Just press play and the words synchronise with the music.</p>
+      
+      <div class="mx-auto mt-m ootacustom-hero-ctas">
+        <a href="#" class="ootacustom-button mb-s mr-m">Try it now</a>
+        <!--<a href="#" class="ootacustom-big-link ml-m"><img src="//www.outoftheark.co.uk/ext/images/wos-2019/hero-video.svg">Watch our how-to videos</a>-->
+        <a href="#videos" class="ootacustom-button mb-s">How-to videos</a>
+      </div>
+      <!--p class="small width-s mx-auto">Words On Screen™ requires an Out Of The Ark Music account. If you already have an account, <a href="#">click here to sign in.</a></p-->
+      
+    </div>
+  </section>
+
+  <section class="ootacustom-section ootacustom-section--formats">
+    <div class="ootacustom-wrapper">
+      <h2>How do I get Words on Screen&trade;?</h2>
+      <p class="mx-auto width-l mb-l">Words on Screen&trade; comes with every purchase of a premium pack product and most are supplied in a CD ROM format, and all accessible online via your Out of the Ark online account. Words on Screen&trade; online contains extra features to make accessing your music and resources even easier.</p>
+      <div class="ootacustom-grid ootacustom-grid--2">
+
+        <div class="ootacustom-expander">
+          <div class="ootacustom-expander__head">
+            <img src="//www.outoftheark.co.uk/ext/images/wos-2019/format-cd.svg"/>
+          </div>
+          <div class="ootacustom-expander__content">
+            <p>If you have purchased a songbook containing Words on Screen™, you will be sent a CD ROM in the post, along with your songbook, musical or nativity.</p>
+            <p>Simply pop the Words on Screen™ CD in and take advantage of all the features on offer.</p>
+          </div>
+        </div>
+
+        <div class="ootacustom-expander">
+          <div class="ootacustom-expander__head">
+            <img src="//www.outoftheark.co.uk/ext/images/wos-2019/format-online.svg"/>
+          </div>
+          <div class="ootacustom-expander__content">
+            <p>Think of this as the digital version of your songbook, musical or nativity – we call this an eSongbook.</p>
+            <p>This player is online for you to login and listen anytime.</p>
+            <p>Forgotten your login details? Don’t worry, <a href="#">click here</a> and we’ll guide you through.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="ootacustom-section ootacustom-section--key-features">
+    <div class="ootacustom-wrapper">
+      <h2>Words on Screen&trade; features</h2>
+      <div class="ootacustom-grid ootacustom-grid--3">
+        <div class="ootacustom-feature">
+          <img src="//www.outoftheark.co.uk/ext/images/wos-2019/features/Library.svg" class="mb-s"/>
+          <h3 class="mb-s">All in one place</h3>
+          <p class="width-s">Access all of your Out Of The Ark Songs &amp; content pdfs, all stored in one convenient place for you.</p>
+        </div>
+        <div class="ootacustom-feature">
+          <img src="//www.outoftheark.co.uk/ext/images/wos-2019/features/Download.svg" class="mb-s"/>
+          <h3 class="mb-s">Download your songs</h3>
+          <p class="width-s">Every song you’ve purchased online can be downloaded to your computer and played at a time that suits you, without needing an internet connection.</p>
+        </div>
+        <div class="ootacustom-feature">
+          <img src="//www.outoftheark.co.uk/ext/images/wos-2019/features/Streaming.svg" class="mb-s"/>
+          <h3 class="mb-s">Stream online</h3>
+          <p class="width-s">Words On Screen™ online allows you to stream your songs anywhere, anytime you like, as long as you have an internet connection.</p>
+        </div>
+        <div class="ootacustom-feature">
+          <img src="//www.outoftheark.co.uk/ext/images/wos-2019/features/Playlist.svg"/>
+          <h3>Create playlists</h3>
+          <p class="width-s">Words On Screen™ online lets you create and manage your own custom playlists using your purchased Out Of The Ark Music songs.</p>
+        </div>
+        <div class="ootacustom-feature">
+          <img src="//www.outoftheark.co.uk/ext/images/wos-2019/features/BackingTracks.svg" class="mb-s"/>
+          <h3 class="mb-s">Full backing tracks</h3>
+          <p class="width-s">All Out Of The Ark Music songs include full backing and harmony tracks, which can be played independantly from the recorded vocals.</p>
+        </div>
+        <div class="ootacustom-feature">
+          <img src="//www.outoftheark.co.uk/ext/images/wos-2019/features/Printer.svg" class="mb-s"/>
+          <h3 class="mb-s">Printable scores &amp; lyrics</h3>
+          <p class="width-s">Print the score and lyrics for your Out Of The Ark Music songs straifght from Words On Screen™ to use when teaching the songs to your group.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ootacustom-section ootacustom-section--demo">
+    <div class="ootacustom-wrapper inner">
+      <h2>Two screen views of Work on Screen&trade;</h2>
+    </div>
+    <div class="ootacustom-reveal two spaced quickflip">
+      <div class="ootacustom-wrapper inner">
+        <ol class="ootacustom-reveal__controls ootacustom-reveal__controls--large top mb-l">
+          <li><a href="#demo-fullscreen" class="active" data-reveal-target="active-1">Player</a></li>
+          <li><a href="#demo-library" data-reveal-target="active-2">Library</a></li>
+        </ol>
+      </div>
+      <div class="ootacustom-wrapper isolated inner">
+      <ol class="ootacustom-reveal__items active-1">
+
+        <li id="demo-fullscreen" class="ootacustom-has-blobs">
+          <img src="//www.outoftheark.co.uk/ext/images/wos-2019/demo-fullscreen.png"/>
+          <ol class="ootacustom-blobs">
+            <li id="blob-sync" >
+              <img src="//www.outoftheark.co.uk/ext/images/wos-2019/blob.svg" />
+              <div class="ootacustom-blob-popover">
+                Words synchronise with the music
+              </div>
+            </li>
+            <li style="right: 0px; bottom: 0px;">
+              <img src="//www.outoftheark.co.uk/ext/images/wos-2019/blob.svg" />
+              <div class="ootacustom-blob-popover top right">
+                Audio extras: which may include harmonies, part singing or rounds
+              </div>
+            </li>
+            
+            <li  style="right: 300px; bottom: 0px;">
+              <img src="//www.outoftheark.co.uk/ext/images/wos-2019/blob.svg" />
+              <div class="ootacustom-blob-popover top right">
+                Switch lyrics to a simple font if required.
+              </div>
+            </li>
+
+            <li  style="right: 390px; bottom: 10px;">
+              <img src="//www.outoftheark.co.uk/ext/images/wos-2019/blob.svg" />
+              <div class="ootacustom-blob-popover top right">
+                Easily jump back and forth between tracks and in-song
+              </div>
+            </li>
+            
+            
+            
+          </ol>
+        </li>
+        
+        <li id="demo-library" class="ootacustom-has-blobs">
+          <img src="//www.outoftheark.co.uk/ext/images/wos-2019/demo-lib.png"/>
+          <ol class="ootacustom-blobs">
+            <li id="blob-songbook" style="left: 10px; top: 40px;">
+              <img src="//www.outoftheark.co.uk/ext/images/wos-2019/blob.svg" />
+              <div class="ootacustom-blob-popover">
+                <p>Quickly find all songs you have purchased in your library</p>
+                <p>Find the resources for each of the products you’ve purchased in your eSongbook.</p>
+              </div>
+            </li>
+            <li id="blob-plain-text" >
+              <img src="//www.outoftheark.co.uk/ext/images/wos-2019/blob.svg" />
+              <div class="ootacustom-blob-popover top right">
+                Easily access the plain text of all lyrics
+              </div>
+            </li>
+            <li style="right: 70px; bottom: 20px;">
+              <img src="//www.outoftheark.co.uk/ext/images/wos-2019/blob.svg" />
+              <div class="ootacustom-blob-popover top right">Download lyrics and printable score PDFs.</div>
+            </li>
+            <li style="left: 0; bottom: 0px;">
+              <img src="//www.outoftheark.co.uk/ext/images/wos-2019/blob.svg" />
+              <div class="ootacustom-blob-popover top">Go full screen!</div>
+            </li>
+            <li style="right: 320px; top: 110px;">
+              <img src="//www.outoftheark.co.uk/ext/images/wos-2019/blob.svg" />
+              <div class="ootacustom-blob-popover">View and preview songs in your library</div>
+            </li>
+          </ol>
+        </li>
+        
+      </ol>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="ootacustom-section ootacustom-section--cta-green">
+    <div class="ootacustom-wrapper">
+    <h2>Words On Screen™ products</h2>
+    <a href="#" class="ootacustom-button ootacustom-button--tertiary mr-m mb-s">Browse songbooks</a>
+    <a href="#" class="ootacustom-button ootacustom-button--tertiary mb-s">Browse single songs</a>
+    </div>
+  </section>
+
+  <section class="ootacustom-section ootacustom-section--get-started">
+    <div class="ootacustom-wrapper">
+      <h2>How to get started</h2>
+      <div class="ootacustom-step">
+        <img src="//www.outoftheark.co.uk/ext/images/wos-2019/step-1.png"/>
+        <div class="ootacustom-step__info">
+        <h2>Step 1:</h2>
+        <p>Click on the top right ‘my account/log in’ button, and log in if you are an exsiting customer, or click on new customer to begin the log in process. Forgotten your log in? Don’t worry, <a href="#">click here</a></p>
+        </div>
+      </div>
+      <div class="ootacustom-step">
+        <img src="//www.outoftheark.co.uk/ext/images/wos-2019/step-2.png"/>
+        <div class="ootacustom-step__info">
+        <h2>Step 2:</h2>
+        <p>As new customer, you will be required to create an account. Then you will be able to download Words on Screen&trade;.</p>
+        </div>
+      </div>
+      <div class="ootacustom-step">
+        <img src="//www.outoftheark.co.uk/ext/images/wos-2019/step-3.png"/>
+        <div class="ootacustom-step__info">
+        <h2>Step 3:</h2>
+        <p>Once you have successfully logged into your Out of the Ark Music account, you can access all your saved account information, plus your Words on Screen&trade; Single Songs and eSongbooks.</p>
+        <p>Choose to either stream or download your songs depending on your requirements.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ootacustom-section ootacustom-section--videos" id="videos">
+    <div class="ootacustom-reveal three spaced">
+      <div class="ootacustom-wrapper">
+        <ol class="ootacustom-reveal__controls top mb-l">
+          <li><a href="#video-1" class="active" data-reveal-target="active-1">Using the player</a></li>
+          <li><a href="#video-2" data-reveal-target="active-2">Creating eSongbook</a></li>
+          <li><a href="#video-3" data-reveal-target="active-3">Using Playlists</a></li>
+        </ol>
+      </div>
+      <div class="ootacustom-wrapper fadeout">     
+      <ol class="ootacustom-reveal__items active-1">
+        <li id="video-1">
+          <iframe src='https://www.youtube.com/embed/nR__8T-UvpQ' frameborder='0' allowfullscreen></iframe>
+          <p>Watch our easy-to-follow 2 minute ‘How-To’ video to see Words On Screen™ in action!</p>
+        </li>
+        <li id="video-2">
+          <iframe src='https://www.youtube.com/embed/uW95BEdt9qI' frameborder='0' allowfullscreen></iframe>
+          <p>Using eSongbooks is easy! Watch to find out more.</p>
+        </li>
+        <li id="video-3">
+          <iframe src='https://www.youtube.com/embed/hiY3rwnoajU' frameborder='0' allowfullscreen></iframe>
+          <p>Find out yo use playlists in this quick video.</p>
+        </li>
+      </ol>
+      </div>
+      
+    </div>
+  </section>
+
+  <section class="ootacustom-section ootacustom-section--faq">
+    <div class="ootacustom-wrapper">
+      <h2>Frequently Asked Questions</h2>
+      <div class="ootacustom-accordion">
+        
+        <div class="ootacustom-accordion__item show">
+          <div class="ootacustom-accordion__title">Stream your songs. Download your songs. Which one is for you?</div>
+          <div class="ootacustom-accordion__content">
+            <p>When you have logged onto your Out of the Ark account to access your songs, you will be given the option either to stream or download your songs. Here’s a simple explanation to help you work out which one is for you (can this be designed side by side, so you click or roll over one and the info appears – like the 4 tabs on the previous version)</p>
+            <h3>Why stream your songs?</h3>
+            <p>This function gives you the flexibility to log on and access your songs anywhere, on any device, excluding mobile phones, provided you have an internet connection. When you stream your songs every song you have purchased will be visible and playable from your player.</p>
+            <h3>Why download your songs?</h3>
+            <p>If you have an unreliable internet connection in your school, it would be better to download your player to enable you to have complete access to all your purchased songs at any time without the need for internet connection once the download has completed. Note – the player and songs you have downloaded will only be available on the device you have downloaded them to.</p>
+            <p>Still unsure? Contact our helpful digital team on 0208 941 7200</p>
+            <h3>I’m confused, I’m being asked to download my sinchronize player to access my songs. What is this?</h3>
+            <p>Don’t worry, the word Sinchronize is the name we used to give to your Words on Screen player. – need to add to this</p>
+          </div>
+        </div>
+
+        <div class="ootacustom-accordion__item">
+          <div class="ootacustom-accordion__title">What is Words on Screen&trade;?</div>
+          <div class="ootacustom-accordion__content">
+            <p>Words on Screen in our unique software that allows you to teach songs with ease, with use of sinchronize technology where the lyrics automatically sinchornise with the music.</p>
+          </div>
+        </div>
+
+        <div class="ootacustom-accordion__item">
+          <div class="ootacustom-accordion__title">What is the Player?</div>
+          <div class="ootacustom-accordion__content">
+            <p>The player is the portal from which you access all of your songs and their relevant resources. The player is what you will need to download.</p>
+          </div>
+        </div>
+
+        <div class="ootacustom-accordion__item">
+          <div class="ootacustom-accordion__title">What is sinchronize?</div>
+          <div class="ootacustom-accordion__content">
+            <p>Sinchronize is the technology we use to create Words on Screen. Historically your Words on Screen tm player was referred to as your Singchronize player. Whilst the name has change, the player and access to it functions in the same way.</p>
+          </div>
+        </div>
+
+        <div class="ootacustom-accordion__item">
+          <div class="ootacustom-accordion__title">What is the download player?</div>
+          <div class="ootacustom-accordion__content">
+            <p></p>
+          </div>
+        </div>
+
+        <div class="ootacustom-accordion__item">
+          <div class="ootacustom-accordion__title">What is the online player?</div>
+          <div class="ootacustom-accordion__content">
+            <p>Your online player is your Words on Screen&trade; online. This allows you access to the digital version of your songbook, if you have purchased the premium package option. You will need to set up an account to access this – click here</p>
+          </div>
+        </div>
+
+        <div class="ootacustom-accordion__item">
+          <div class="ootacustom-accordion__title">What is Words on Screen&trade; online?</div>
+          <div class="ootacustom-accordion__content">
+            <p>Words on Screen&trade; online allows you access to the digital version of your songbook, if you have purchased the premium package option. You will need to set up an account to access this – click here</p>
+          </div>
+        </div>
+
+        <div class="ootacustom-accordion__item">
+          <div class="ootacustom-accordion__title">What is Words on Screen&trade; original?</div>
+          <div class="ootacustom-accordion__content">
+            <p>Words on Screen&trade; was our pioneering product. We have been working continuously to update this, and will confi</p>
+            <p>I have an account with Out of the Ark Music, can I access my Words on Screen player from here?
+There is a distinct difference between having an account with us where you provide your invoice details, and xxxx to the online line account you will need to set up in order to access your Words on Screen player containing your songs. Click here to set up an account.</p>
+          </div>
+        </div>
+
+        <div class="ootacustom-accordion__item">
+          <div class="ootacustom-accordion__title">Where can I find my eSongbook?</div>
+          <div class="ootacustom-accordion__content">
+            <p>Once you have a logged into your account page you will be able to access all of your digital resources buy either streming or downloading . When your player is open you will find a link for ‘All eSongbooks’ on the left hand side menu bar. Click on this, and you will see a list of all the e-songbooks you have purchased.</p>
+          </div>
+        </div>
+
+        <div class="ootacustom-accordion__item">
+          <div class="ootacustom-accordion__title">I’ve forgotten how to log onto my account. </div>
+          <div class="ootacustom-accordion__content">
+            <p>Don’t worry, click here and we’ll guide you through.</p>
+            <p>Please note that you will need the Words on Screen tm player version 2.0 and above to view eSongbooks. To download the latest version of the player, either to update your existing player, or for the first time, please go to our Install Player page here.</p>
+          </div>
+        </div>
+
+        <div class="ootacustom-accordion__item">
+          <div class="ootacustom-accordion__title">I’ve bought an eSongbook but it's not appearing in my player?</div>
+          <div class="ootacustom-accordion__content">
+            <p>If you have bought a Premium pack product online which includes Words on Screen™  whilst still logged in to your installed Player you will need to click the 'Refresh' button on the left-hand side of your library screen. This will update your library with all purchases. You will then be able to download and play your new songs and eSongbook in the player.</p>
+          </div>
+        </div>
+
+    
+      </div>
+    </div>
+  </section>
+
+  <section class="ootacustom-section ootacustom-section--cta">
+    <div class="ootacustom-wrapper">
+    <img src="//www.outoftheark.co.uk/ext/images/wos-2019/wos-logo.png" class="mb-l mx-auto" style="width: 360px;"/>
+    <p class="width-s mb-l">Sign up for an Out Of The Ark Music account today, and get your first Words On Screen™ song absolutely free!</p>
+    <a href="#" class="ootacustom-button">Try for free now</a>
+    </div>
+  </section>
+
+  
+
+</div>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script>
+/*jshint browser:true */
+/*!
+* FitVids 1.1
+*
+* Copyright 2013, Chris Coyier - http://css-tricks.com + Dave Rupert - http://daverupert.com
+* Credit to Thierry Koblentz - http://www.alistapart.com/articles/creating-intrinsic-ratios-for-video/
+* Released under the WTFPL license - http://sam.zoy.org/wtfpl/
+*
+*/
+
+; (function ($) {
+
+  'use strict';
+
+  $.fn.fitVids = function (options) {
+    var settings = {
+      customSelector: null,
+      ignore: null
+    };
+
+    if (!document.getElementById('fit-vids-style')) {
+      // appendStyles: https://github.com/toddmotto/fluidvids/blob/master/dist/fluidvids.js
+      var head = document.head || document.getElementsByTagName('head')[0];
+      var css = '.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}';
+      var div = document.createElement("div");
+      div.innerHTML = '<p>x</p><style id="fit-vids-style">' + css + '</style>';
+      head.appendChild(div.childNodes[1]);
+    }
+
+    if (options) {
+      $.extend(settings, options);
+    }
+
+    return this.each(function () {
+      var selectors = [
+        'iframe[src*="player.vimeo.com"]',
+        'iframe[src*="youtube.com"]',
+        'iframe[src*="youtube-nocookie.com"]',
+        'iframe[src*="kickstarter.com"][src*="video.html"]',
+        'object',
+        'embed'
+      ];
+
+      if (settings.customSelector) {
+        selectors.push(settings.customSelector);
+      }
+
+      var ignoreList = '.fitvidsignore';
+
+      if (settings.ignore) {
+        ignoreList = ignoreList + ', ' + settings.ignore;
+      }
+
+      var $allVideos = $(this).find(selectors.join(','));
+      $allVideos = $allVideos.not('object object'); // SwfObj conflict patch
+      $allVideos = $allVideos.not(ignoreList); // Disable FitVids on this video.
+
+      $allVideos.each(function () {
+        var $this = $(this);
+        if ($this.parents(ignoreList).length > 0) {
+          return; // Disable FitVids on this video.
+        }
+        if (this.tagName.toLowerCase() === 'embed' && $this.parent('object').length || $this.parent('.fluid-width-video-wrapper').length) { return; }
+        if ((!$this.css('height') && !$this.css('width')) && (isNaN($this.attr('height')) || isNaN($this.attr('width')))) {
+          $this.attr('height', 9);
+          $this.attr('width', 16);
+        }
+        var height = (this.tagName.toLowerCase() === 'object' || ($this.attr('height') && !isNaN(parseInt($this.attr('height'), 10)))) ? parseInt($this.attr('height'), 10) : $this.height(),
+          width = !isNaN(parseInt($this.attr('width'), 10)) ? parseInt($this.attr('width'), 10) : $this.width(),
+          aspectRatio = height / width;
+        if (!$this.attr('name')) {
+          var videoName = 'fitvid' + $.fn.fitVids._count;
+          $this.attr('name', videoName);
+          $.fn.fitVids._count++;
+        }
+        $this.wrap('<div class="fluid-width-video-wrapper"></div>').parent('.fluid-width-video-wrapper').css('padding-top', (aspectRatio * 100) + '%');
+        $this.removeAttr('height').removeAttr('width');
+      });
+    });
+  };
+
+  // Internal counter for unique video names.
+  $.fn.fitVids._count = 0;
+
+  // Works with either jQuery or Zepto
+})(window.jQuery || window.Zepto);
+
+$(document).ready(function () {
+
+  //reveals
+  $('.ootacustom-reveal').each(function() {
+    var $controls = $('.ootacustom-reveal__controls',this);
+    var $items = $('.ootacustom-reveal__items',this);
+    
+    $('a', $controls).click(function(e) {
+      e.preventDefault();
+
+      if(! $(this).hasClass('active')) { //if this isn't currently active
+
+        var targetItem = $(this).attr('data-reveal-target');
+
+        //change active state on controls
+        $('a', $controls).removeClass('active');
+        $(this).addClass('active');
+
+        //change active items
+        $items.removeClass("active-1 active-2 active-3");
+        $items.addClass(targetItem);
+
+      }
+
+    });
+
+  });
+
+
+  //accordion
+  $('.ootacustom-accordion').each(function() {
+    $thisAccordion = this;
+    $('.ootacustom-accordion__title', $thisAccordion).click(function() {
+      var $wrapper = $(this).parents('.ootacustom-accordion__item');
+      
+      if($wrapper.hasClass('show')) {
+        $('.ootacustom-accordion__item', $thisAccordion).each(function() {
+          $(this).removeClass('show');
+        });
+      } else {
+        $('.ootacustom-accordion__item', $thisAccordion).each(function() {
+          $(this).removeClass('show');
+        });
+        $wrapper.addClass('show');
+      }
+            
+    });
+  });
+
+  //fitvid
+  $('iframe[src*="youtube"]').parent().fitVids();
+
+});
+</script>

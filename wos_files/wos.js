@@ -40,23 +40,6 @@ $(document).ready(function () {
     });
   });
 
-  //blobs
-  // $('.wos-has-blobs').each(function() {
-  //   $this = $(this);
-  //   $content = $('.wos-blobs-content',$this);
-  //   $('.wos-blobs li', $this).mouseenter(function() {
-  //     $('.wos-blobs li',$this).addClass('hidden');
-  //     $content.text($(this).attr('title'));
-  //     $(this).addClass('active');
-  //     $content.addClass('active');
-  //   });
-  //   $('.wos-blobs li', $this).mouseleave(function () {
-  //     $('.wos-blobs li', $this).removeClass('hidden');
-  //     $(this).removeClass('active');
-  //     $content.removeClass('active');
-  //   });
-  // });
-
   //fitvid
   $('iframe[src*="youtube"]').parent().fitVids();
 
