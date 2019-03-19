@@ -161,9 +161,6 @@
       border-color: white; }
       .ootacustom-button--tertiary:hover {
         border-color: white; }
-  .ootacustom-hero {
-    padding-bottom: 93px;
-    position: relative; }
     .ootacustom-hero video {
       border: 12px solid black;
       border-radius: 6px;
@@ -507,7 +504,31 @@
       background: linear-gradient(90deg, rgba(241, 241, 241, 0) 0%, #f1f1f1 500px, #f1f1f1 100%); }
 
 .ootacustom-section {
-  padding: 100px 0 100px 0; }
+  padding: 40px 0; }
+.ootacustom-section--hero {
+    text-align: center; }
+  .ootacustom-section--demo {
+    background: white; }
+  .ootacustom-section--get-started {
+    padding-bottom: 0; }
+  .ootacustom-section--videos { }
+  .ootacustom-section--formats {
+    background-color: white; }
+  .ootacustom-section--cta-green {
+    background-color: #8BC53F;
+    text-align: center; }
+    .ootacustom-section--cta-green h2 {
+      color: white; }
+  .ootacustom-section--cta {
+    text-align: center; }
+  .ootacustom-section--faq {
+    background-color: white; }
+
+
+/* responsive styles for larger screens */
+@media screen and (min-width: 1000px) {
+  .ootacustom-section {
+    padding: 100px 0; }
   .ootacustom-section--hero {
     text-align: center;
     padding-top: 50px; }
@@ -532,9 +553,6 @@
     text-align: center; }
   .ootacustom-section--faq {
     background-color: white; }
-
-/* responsive styles for larger screens */
-@media screen and (min-width: 1000px) {
   .ootacustom-button {
     font-size: 26px;
     padding: 17px 30px; }
@@ -595,6 +613,9 @@
       flex-direction: row-reverse; }
   .ootacustom-blobs {
     display: block; }
+  .ootacustom-hero {
+    padding-bottom: 93px;
+    position: relative; }
   .ootacustom-hero:after {
     content: "";
     display: block;
